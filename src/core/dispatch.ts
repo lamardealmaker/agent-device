@@ -633,6 +633,7 @@ async function handleSnapshotCommand(
     scope: context?.snapshotScope,
     raw: context?.snapshotRaw,
     includeRects: context?.snapshotIncludeRects,
+    includeHiddenContentHints: context?.snapshotIncludeHiddenContentHints,
     surface: context?.surface,
   });
 }
